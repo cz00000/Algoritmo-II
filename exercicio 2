@@ -1,1 +1,11 @@
+#include <stdio.h>
+    
+    int main(){
+        int hora,minutos;
+        printf("digite a hora:\n");
+        scanf("%d",&hora);
+        minutos = hora * 60;
+        printf("passou %d minutos desde o começo do dia",minutos);
 
+        return 0;
+    }
